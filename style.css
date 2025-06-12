@@ -11,6 +11,9 @@ footer form p a */
     --lighter-green: #9ea93f;
     --moss-green: #60712f;
 }
+html{
+    scroll-behavior: smooth;
+}
 @font-face {
     font-family: "Shrek";
     src: url(./assets/shrek.ttf);
@@ -62,23 +65,26 @@ ul{
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
+    font-family: "Fontin-small", 'Times New Roman', Times, serif;
 
 }
 main{
-    height: 80svh;
+    min-height: 100svh;
     width: 100svw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 section{
-    height: 70svh;
+    height: 80svh;
     background-color: var(--primary-brown);
     width: 80svw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    color: var(--primary-green);
 
 }
 article{
@@ -91,13 +97,48 @@ img{
     object-fit: contain;
 }
 .section-heading{
-    font-family: "Fontin-small", 'Times New Roman', Times, serif;
     font-size: 40px;
 
 }
 footer{
-    height: 15svh;
+    height: 80px;
     width: 100svw;
-    background-color:  var(--primary-green);
+    background-color:  var(--primary-brown);
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: "Fontin-small", 'Times New Roman', Times, serif;
+    max-width: 60svw;
+    font-size: 14px;
+    background-color: #9ea93f89;
+    border-radius: 5px;
+    text-align: center;
+}
+#fiona-container, #dragon-container, #farquaad-container, #sign-up{
+    background-color: var(--primary-green);
 
+}
+form{
+    background-color: var(--lighter-green);
+    width: 70svw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: var(--primary-green);
+
+     font-family: "Fontin-small", 'Times New Roman', Times, serif;
+
+}
+input{
+    height: 30px;
+    width: 40svw;
+    border-radius: 5px;
+    background-color: var(--moss-green);
+}
+input::placeholder{
+color: var(--primary-brown);
+ font-family: "Fontin-small", 'Times New Roman', Times, serif;
 }
