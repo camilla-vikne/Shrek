@@ -1,6 +1,80 @@
+/* header h1 nav ul li a
+main section p img p
+.section-heading 
+#shrek-container  #fiona-container #donkey-container #dragon-container
+#puss-in-boots-container #farquaad-container #death-container
+#sign-up form 
+footer form p a */
 :root{
     --primary-green: #181f1c;
     --primary-brown: #2f2504;
     --lighter-green: #9ea93f;
     --moss-green: #60712f;
+}
+@font-face {
+    font-family: "Shrek";
+    src: url(./assets/shrek.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Fontin-small";
+    src: url(./assets/Fontin-SmallCaps.ttf);
+    font-weight: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--moss-green);
+}
+a:active, a:visited, a{
+    color: var(--lighter-green);
+    text-decoration: none;
+}
+header{
+    height: 15svh;
+    width: 100svw;
+    background-color: var(--primary-green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+h1{
+    font-family: "Shrek", 'Times New Roman', Times, serif;
+    color: var(--lighter-green);
+}
+nav{
+    width: 60svw;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+main{
+    height: 100svh;
+    width: 100svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    height: 80svh;
+    background-color: var(--primary-brown);
+    width: 80svw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+img{
+    width: 30svw;
 }
