@@ -29,6 +29,10 @@ footer form p a */
 }
 body{
     background-color: var(--moss-green);
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+
 }
 a:active, a:visited, a{
     color: var(--lighter-green);
@@ -42,6 +46,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    position: sticky;
+    top: 0;
 }
 h1{
     font-family: "Shrek", 'Times New Roman', Times, serif;
@@ -59,14 +65,14 @@ ul{
 
 }
 main{
-    height: 100svh;
+    height: 80svh;
     width: 100svw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 section{
-    height: 80svh;
+    height: 70svh;
     background-color: var(--primary-brown);
     width: 80svw;
     display: flex;
@@ -75,6 +81,23 @@ section{
     justify-content: space-evenly;
 
 }
+article{
+    width: 40svw;
+    height: 40svh;
+}
 img{
-    width: 30svw;
+    aspect-ratio: 1 / 1;
+    max-height: 100%;
+    object-fit: contain;
+}
+.section-heading{
+    font-family: "Fontin-small", 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+footer{
+    height: 15svh;
+    width: 100svw;
+    background-color:  var(--primary-green);
+
 }

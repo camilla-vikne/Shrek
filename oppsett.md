@@ -14,3 +14,6 @@ Shrek’s animation was cutting-edge at the time. DreamWorks pushed limits on re
 "Shrekism is a religion where followers worship Shrek as their Ogre-Lord. The holy book is called the Book of Brogre, which says Shrek created the universe over 5 days. The Shrek Commandments list rules followers must obey, such as respecting Shrek's swamp."
 
 Death, also referred to as the Wolf or Lobo, is the physical embodiment of death, who takes the form of a white wolf in a black poncho. He is intent on killing the legendary Puss in Boots once and for all, as punishment for carelessly wasting eight of his nine lives.
+
+Fun fact: Shrek was DreamWorks' way of punishing their crew, mainly those who failed their tasks in the production of "Prince of Egypt".
+DW assumed that the movie would be a box-office loser, and was prepping it as a tax write-off. They called the process of being transferred to the Shrek production team "Getting Shrek'd".
